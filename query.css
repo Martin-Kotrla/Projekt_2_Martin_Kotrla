@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+    nav {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        background: #15304c;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 601px){
+    nav {
+        display: block !important;       
+    }
+}
